@@ -30,10 +30,10 @@
             $mail->SMTPSecure = "ssl";
             $mail->Port = 465;
             $mail->SMTPAuth = true;
-            $mail->Username = 'artem891lol@gmail.com';
-            $mail->Password = 'QWERTY2003artem17';
+            $mail->Username = 'mail';
+            $mail->Password = 'password';
 
-            $mail->setFrom('artem891lol@gmail.com', '232313qwd');
+            $mail->setFrom('mail', '232313qwd');
             $mail->addAddress('popkov891@bk.ru');
             $mail->Subject = 'SMTP email test';
             $mail->Body = 'WE WILL HELP U';
